@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Responsive web desing</title>
+	<link  rel="icon"   href="1.png" type="image/png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="icon" type="text/css" href="1.png">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h2>logo</h2>
+		</div>
+		<div class="categorias">
+			<a href="" title="">inicio</a>
+			<a href="#catalogo" title="">catálogo</a>
+			<a href="#ubicacion" title="">ubicacion</a>
+			<a href="#contacto"  title="">contacto</a>
+		</div>
+	</header>
+	<main>
+		<div class="portada">
+			<h1>tienda virtual</h1>
+			<p>diseño de pagina web desarrollada por joc desarrollo web ..</p>
+		</div>
+		<a name="catalogo" title=""></a>
+		<div class="servicios">
+			<h2>catálogo</h2>
+			<div class="content">
+				<div class="item-content">
+					<div class="conten-img">
+						<img alt="playa" onclick="mo(this)" src="img/1.jpg" alt="">
+					<div class="contenido-texto">
+						<h3>playa</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+					</div>
+					</div>
+				</div>
+				<div class="item-content">
+					<div class="conten-img">
+						<img alt="casual" onclick="mo(this)" src="img/2.jpg" alt="">
+					<div class="contenido-texto">
+						<h3>casual</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+					</div>
+					</div>
+				</div>
+				<div class="item-content">
+					<div class="conten-img">
+						<img alt="deportivo" onclick="mo(this)" src="img/3.jpg" alt="">
+					<div class="contenido-texto">
+						<h3>deportivo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+					</div>
+					</div>
+				</div>
+				<div class="item-content">
+					<div class="conten-img">
+						<img onclick="mo(this)" src="img/1.jpg" alt="">
+					<div class="contenido-texto">
+						<h3>playa</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+					</div>
+					</div>
+				</div>
+				<div class="item-content">
+					<div class="conten-img">
+						<img onclick="mo(this)" src="img/2.jpg" alt="">
+					<div class="contenido-texto">
+						<h3>casual</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+					</div>
+					</div>
+				</div>
+				<div class="item-content">
+					<div class="conten-img">
+						<img onclick="mo(this)" src="img/3.jpg" alt="">
+					<div class="contenido-texto">
+						<h3>deportivo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ubicacion">
+			<a name="ubicacion" title=""></a>
+			<h2>donde estamos ubicados ?</h2>
+			<div class="maps">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7853.492699059727!2d-64.63941937276766!3d10.201242117771717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2d740d55b939f1%3A0x6a6baaf6f31a1448!2sPuerto%20La%20Cruz%2C%20Anzo%C3%A1tegui!5e0!3m2!1ses!2sve!4v1604517177664!5m2!1ses!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</div>
+		<a name="contacto" title=""></a>
+		<div class="contacto">
+		<h3>formulario contacto</h3>
+		<div class="contenido">
+		  <form>
+		    <label for="pnombre">nombre</label>
+		    <input  type="text" id="nombre" name="pnombre" placeholder="Tu Nombre..">
+
+		    <label for="apellido">apellido</label>
+		    <input type="text" id="apellido" name="apellido" placeholder="Tu Apellido..">
+
+		    <label for="direccion">direccion</label>
+		    <input type="text" id="direccion" name="direccion" placeholder="Tu direccion.."><br><br>
+
+		    <label for="mensaje">mensaje / requerimientos</label>
+		    <textarea id="mensaje" name="mensaje" placeholder="escribir mensaje.." style="" ></textarea>
+
+		   	<input type="submit" id="s" value="Whatsapp">
+		    
+		  </form>
+		</div>
+	</div>
+	</main>
+	<footer>
+		<div class="info">
+			<a>© Todos los derechos reservados 2020</a>
+		</div>
+	</footer>
+	<div class="modal" id="modal">
+		<div class="content-modal">
+			<div class="content-image">
+				<img id="mi" src="img/1.jpg" alt="">
+				<h3 id="mt">titulo</h3>
+				<p id="md">Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit,</p>
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="js.js"></script>
+</body>	
+</html>
